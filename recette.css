@@ -1,0 +1,153 @@
+
+* {
+    overflow: auto;
+}
+
+body {
+    background-color: #8BA1BB;
+    font-family: Arial;
+    margin: 0;
+}
+/* selectionner un id */
+/* p#categorie{
+    background-color: black;
+    color: white;
+} */
+/* selectionner une class */
+p.categorie{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    margin-top: -15px;
+    text-align: center;
+    padding: 8px 18px;
+    margin-bottom: 0px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+div.contenu {
+    background-color: white;
+    margin: 60px 10% 80px 10%;
+    padding: 0px 30px 30px 30px;
+    min-height: 350px;
+    box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.1);  
+    overflow: visible;
+}
+h1{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 12px;
+}
+p.description{
+    text-align: center;
+    max-width: 400px;
+    display: inline-block;
+    font-size: 16px;
+}
+.centre{
+    text-align: center;
+    width: 100%; 
+}
+div.categorie{
+    margin-top: 0px;
+    margin-bottom: 0px; 
+    overflow: visible;     
+}
+div.separateur{
+    background-color: black;
+    height: 1px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+table.info{
+    position: absolute; 
+    bottom: 0; 
+    width: 100%; 
+    color: white; 
+    background-color: #6C829DC0;
+}
+table.info td {
+    text-align: center;
+    font-size: 14px;
+    vertical-align: top;
+}
+table.info th {
+    padding-bottom: 8px;
+    font-size: 16px;
+    vertical-align: bottom;
+}
+div.info{
+    position: relative;
+}
+
+img.info {
+    display: block;
+    max-height: 400px;
+    object-fit: cover;
+    min-height: 200;
+    background-color: lightgray;
+}
+
+div.colonne{
+    width: 50%;
+}
+
+div.colonne h2{
+    text-align: center;
+    margin-top: 16px;
+    border-bottom: 5px solid #6C829DC0;
+}
+
+div.colonne1, div.colonne2{
+    width: 45%;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+div.colonne1{
+    display: inline-block;
+}
+
+div.colonne2{
+    float: right;
+}
+
+div.ingredient p{
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid lightgray;
+    padding: 8px 0px;
+    margin-top: 4px;
+    margin-bottom: 1px;
+}
+
+table.preparation p.numero {
+    background-color: #6C829DC0;
+    color: white;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 4px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin-top: 0px;
+}
+
+table.preparation td {
+    vertical-align:  top;
+}
+table.preparation tr {
+    height: 40px;
+}
+table.preparation td.preparation_etape {
+    font-size: 14px;
+    text-align: left;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+
